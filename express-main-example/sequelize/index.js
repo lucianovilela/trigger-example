@@ -13,6 +13,10 @@ const sequelize = new Sequelize({
 
 const modelDefiners = [
 	require('./models/user.model'),
+	require('./models/trigger.model'),
+	require('./models/trigger_listener.model'),
+	require('./models/listener.model'),
+
 	// Add more models here...
 	// require('./models/item'),
 ];
